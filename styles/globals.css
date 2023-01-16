@@ -165,8 +165,13 @@ span.text-red {
 }
 
 .hero-banner-container .beats-solo {
-  font-size: 20px;
+  font-size: 2rem;
 }
+
+.hero-banner-container .beats-solo>h1 {
+  font-size: 7rem;
+}
+
 
 .hero-banner-container button {
   border-radius: 15px;
@@ -726,9 +731,11 @@ span.text-red {
     height: 560px;
   }
 
+
+
   .hero-banner-image {
     width: 100%;
-    height: 62%;
+    height: auto;
     top: 20%;
     right: -25%;
     transform: scale(0.5);
@@ -745,7 +752,7 @@ span.text-red {
     left: 30%;
     top: 6%;
     transform: scale(0.4);
-    height: 56%
+    height: auto;
   }
 
   .banner-desc .left h3 {
@@ -755,7 +762,9 @@ span.text-red {
   }
 
   .banner-desc .left p {
-    margin: 18px;
+    margin: 10%;
+    margin-left: 15px;
+    transform: scale(1.1);
   }
 
   .banner-desc .right h3 {
@@ -780,7 +789,8 @@ span.text-red {
   }
 
   .hero-banner-container h1 {
-    font-size: 50px;
+    font-size: 3rem;
+    margin-left: 0%;
   }
 
   .hero-banner-container h3 {
@@ -905,4 +915,5 @@ span.text-red {
     width: 300px;
     margin: auto;
   }
+
 }

@@ -1,32 +1,30 @@
-import Link from 'next/link'
-import React from 'react'
-import { urlFor } from '../lib/client'
+import React from 'react';
 
+import { Link } from 'react-scroll'
+import { urlFor } from '../lib/client';
+import Product from './Product';
 
-const FooterBanner = ({ footerBanner: {
-    discount, largeText1, largeText2, saleTime, smallText, midText, product, buttonText, image, desc
-} }) => {
+const FooterBanner = ({ footerBanner: { discount, largeText1, largeText2, saleTime, smallText, midText, desc, product, buttonText, image } }) => {
     return (
-        <div className='footer-banner-container'>
+        <div className="footer-banner-container">
             <div className="banner-desc">
                 <div className="left">
-                    <p>{discount}
-                    </p>
+                    <p>{discount}</p>
                     <h3>{largeText1}</h3>
                     <h3>{largeText2}</h3>
-                    <p>{saleTime} </p>
+                    <p>{saleTime}</p>
                 </div>
                 <div className="right">
                     <p>{smallText}</p>
-                    <h3>{midText} </h3>
-                    <p>{desc} </p>
-                    <Link href={`/product/${product}`}>
-                        <button type="button">{buttonText} </button>
-
-                    </Link>
+                    <h3>{midText}</h3>
+                    <p>{desc}</p>
+                    {/* <Link spy={true} to={Product} activeClass='activeClass' >
+                        <button type="button">{buttonText}</button>
+    </Link>*/}
                 </div>
-                <img src={urlFor(image)}
-                    className='footer-banner-image'
+
+                <img
+                    src={urlFor(image)} className="footer-banner-image"
                 />
             </div>
         </div>
