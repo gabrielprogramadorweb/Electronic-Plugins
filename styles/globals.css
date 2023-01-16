@@ -166,10 +166,11 @@ span.text-red {
 
 .hero-banner-container .beats-solo {
   font-size: 2rem;
+  margin-bottom: 2%;
 }
 
 .hero-banner-container .beats-solo>h1 {
-  font-size: 7rem;
+  font-size: 2rem;
 }
 
 
