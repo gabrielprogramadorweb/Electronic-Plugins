@@ -51,7 +51,7 @@ const ProductDetails = ({ product, products }) => {
                     </div>
                     <h4>Detalhes: </h4>
                     <p>{details}</p>
-                    <p className="price">${price}</p>
+                    <p className="price">R${price}</p>
                     <div className="quantity">
                         <h3>Quantidade:</h3>
                         <p className="quantity-desc">
@@ -62,13 +62,13 @@ const ProductDetails = ({ product, products }) => {
                     </div>
                     <div className="buttons">
                         <button type="button" className="add-to-cart" onClick={() => onAdd(product, qty)}>Adicionar ao <AiOutlineShoppingCart /></button>
-                        <button type="button" className="buy-now" onClick={handleBuyNow}>Buy Now</button>
+                        <button type="button" className="buy-now" onClick={handleBuyNow}>Comprar Agora</button>
                     </div>
                 </div>
             </div>
 
             <div className="maylike-products-wrapper">
-                <h2>You may also like</h2>
+                <h2>Aproveite para levar mais itens</h2>
                 <div className="marquee">
                     <div className="maylike-products-container track">
                         {products.map((item) => (
