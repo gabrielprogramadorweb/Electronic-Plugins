@@ -1,6 +1,8 @@
 html,
 body,
+
 * {
+
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -19,7 +21,7 @@ a {
 }
 
 .main-container {
-  max-width: 1400px;
+  max-width: 1500px;
   margin: auto;
   width: 100%;
 
@@ -27,12 +29,14 @@ a {
 
 .layout {
   padding: 10px;
+  width: 100%;
+
 }
 
 .navbar-container {
   display: flex;
   justify-content: space-between;
-  margin: 6px 18px;
+  margin: 0;
   position: relative;
 }
 
@@ -718,25 +722,29 @@ span.text-red {
 
 @media screen and (max-width:800px) {
   .hero-banner-container {
+    width: 100%;
     height: 560px;
   }
 
   .hero-banner-image {
-    width: 77%;
+    width: 100%;
     height: 62%;
-    top: -2%;
-    right: -6%;
+    top: 20%;
+    right: -25%;
+    transform: scale(0.5);
   }
 
   .footer-banner-container {
     height: 560px;
     margin-top: 80px;
+    width: 100%;
   }
 
   .footer-banner-image {
-    width: 77%;
+    width: 100%;
     left: 30%;
     top: 6%;
+    transform: scale(0.4);
     height: 56%
   }
 
@@ -798,8 +806,8 @@ span.text-red {
   }
 
   .cart-container {
-    width: 415px;
-    padding: 4px;
+    width: 215px;
+
   }
 
   .cart-heading {
