@@ -458,7 +458,8 @@ span.text-red {
   display: flex;
   gap: 40px;
   margin: 40px;
-  margin-top: 60px;
+
+  margin-top: 110px;
   color: #324d67;
 
 }
@@ -468,7 +469,7 @@ span.text-red {
   background-color: #ebebeb;
 
   width: 400px;
-  height: 400px;
+  height: auto;
   cursor: pointer;
   transition: .3s ease-in-out;
 }
@@ -700,6 +701,35 @@ span.text-red {
     height: 560px;
   }
 
+  /* Coleção nova*/
+  .product-card {
+    cursor: pointer;
+    width: 100%;
+    height: auto;
+    transform: scale(1, 1);
+    transition: transform 0.5s ease;
+    color: #324d67;
+
+  }
+
+  .products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 20px;
+    width: 100%;
+
+
+  }
+
+  .products-heading {
+    text-align: center;
+    margin: 40px 0px;
+    color: #000000;
+
+
+  }
 
   /* Cart */
   .product {
@@ -807,7 +837,8 @@ span.text-red {
 
   .product-detail-container .product-detail-image {
     width: 350px;
-    height: 350px;
+    height: auto;
+    margin-top: 16%;
   }
 
   .cart-container {
