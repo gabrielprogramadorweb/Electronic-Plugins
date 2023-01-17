@@ -46,7 +46,7 @@ const Cart = () => {
 
                 {cartItems.length < 1 && (
                     <div className="empty-cart">
-                        <AiOutlineShopping size={150} />
+                        <AiOutlineShopping size={100} />
                         <h3>O seu carrinho de compras está vazio</h3>
                         <Link href="/">
                             <button
