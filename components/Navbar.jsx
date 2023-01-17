@@ -14,7 +14,7 @@ const Navbar = () => {
     return (
         <div className={css.navbar}>
             <p className={css.logo}>
-                <Link href='/'>Duck Golden</Link>
+                <Link href='/'>DUCK GOLDEN</Link>
             </p>
 
             <button type='button'
