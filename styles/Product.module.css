@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+
 .promo {
     width: 200px;
     height: auto;
     margin-left: 0%;
-    padding: 0;
+    padding: 2px;
+    transform: scale(1);
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     font-size: 1rem;
     background-color: rgba(34, 255, 0, 0.875);
