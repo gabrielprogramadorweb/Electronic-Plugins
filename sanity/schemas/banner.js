@@ -12,6 +12,14 @@ export default {
             },
         },
         {
+            name: 'image2',
+            title: 'Image2',
+            type: 'image',
+            options: {
+                hotspot: true,
+            },
+        },
+        {
             name: 'buttonText',
             title: 'ButtonText',
             type: 'string',
