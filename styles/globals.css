@@ -731,7 +731,7 @@ span.text-red {
     display: block;
     width: 100%;
     margin: 0;
-
+    padding-bottom: 2%;
     color: #ffffff;
     background: #000000;
     border: 5px solid black;
