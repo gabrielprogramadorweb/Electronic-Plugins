@@ -17,8 +17,10 @@
 }
 
 .logo {
+
     color: rgb(250, 249, 249);
     font-size: 22px;
+    font-weight: bold;
     font-family: 'Poppins', sans-serif;
 
 }
@@ -58,7 +60,8 @@
         color: rgb(250, 249, 249);
         font-size: 18px;
         font-family: 'Poppins', sans-serif;
-
+        transform: scale(1.0);
+        transform: translateX(10%);
     }
 
     .navbar {
@@ -67,7 +70,7 @@
         margin: 0;
         padding: 0;
         width: 100%;
-        padding-top: 2%;
+        padding-top: 1%;
         font-family: 'Poppins', sans-serif;
         text-align: center;
         background: black;
@@ -92,7 +95,7 @@
         font-size: 29px;
         color: rgb(231, 180, 11);
         cursor: pointer;
-
+        bottom: -20%;
         position: relative;
         transition: transform .4s ease;
         border: none;
@@ -100,7 +103,7 @@
     }
 
     .icon {
-        transform: scale(1.1, 1.1);
+        transform: scale(1.0, 1.0);
     }
 
     .item {
