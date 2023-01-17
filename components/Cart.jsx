@@ -98,7 +98,7 @@ const Cart = () => {
                         </div>
                         <div className="btn-container">
                             <button type="button" className="btn" onClick={handleCheckout}>
-                                Pagar com cartão              </button>
+                                Pagar agora              </button>
                         </div>
                     </div>
                 )}
