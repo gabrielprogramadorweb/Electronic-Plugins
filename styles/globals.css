@@ -725,8 +725,20 @@ span.text-red {
 
   .products-heading {
     text-align: center;
-    margin: 40px 0px;
+    padding: 0;
+    height: auto;
+    display: block;
+    width: 100%;
+    margin: 0;
+    margin-left: 2%;
+    margin-right: -40%;
     color: #000000;
+    border: 5px solid black;
+    padding-top: 32%;
+    width: 100%;
+    background-size: 100% 100%;
+    margin-top: -40%;
+
 
 
   }

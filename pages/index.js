@@ -11,7 +11,7 @@ const Home = ({ products, bannerData }) => {
 
 
       <div className='products-heading'>
-        <h2>Coleção nova</h2>
+        <h2>NOVA COLEÇÃO</h2>
         <p></p>
       </div>
       <div className='products-container'>
