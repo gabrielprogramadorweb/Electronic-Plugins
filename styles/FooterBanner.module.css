@@ -1,0 +1,8 @@
+.card {
+    margin-top: -6%;
+    width: 30%;
+    height: auto;
+    left: 0;
+    position: relative;
+    z-index: 4;
+}

@@ -1,16 +1,19 @@
 import React from 'react';
-
+import Cartao from '../src/assets/band.png'
 import { Link } from 'react-scroll'
 import { urlFor } from '../lib/client';
 import Product from './Product';
+import css from '../styles/FooterBanner.module.css'
 
-const FooterBanner = ({ footerBanner: { discount, largeText1, largeText2, saleTime, smallText, midText, desc, product, buttonText, image } }) => {
+const FooterBanner = ({ footerBanner: { discount, largeText1, largeText2, saleTime, smallText, card, midText, desc, product, buttonText, image } }) => {
     return (
         <div className="footer-banner-container">
             <div className="banner-desc">
                 <div className="left">
-                    <p>{discount}</p>
-                    <h3>{largeText1}</h3>
+                    <p>Formas de pagamento</p>
+                    <img
+                        src={urlFor(card)} className={css.card}
+                    />
                     <h3>{largeText2}</h3>
                     <p>{saleTime}</p>
                 </div>
@@ -23,9 +26,7 @@ const FooterBanner = ({ footerBanner: { discount, largeText1, largeText2, saleTi
     </Link>*/}
                 </div>
 
-                {/** <img
-                    src={urlFor(image)} className="footer-banner-image"
-                />*/ }
+                { }
             </div>
         </div>
     )

@@ -20,6 +20,14 @@ export default {
             },
         },
         {
+            name: 'card',
+            title: 'Card',
+            type: 'image',
+            options: {
+                hotspot: true,
+            },
+        },
+        {
             name: 'buttonText',
             title: 'ButtonText',
             type: 'string',
