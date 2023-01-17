@@ -1,0 +1,13 @@
+.promo {
+    width: 200px;
+    height: auto;
+    margin-left: 0%;
+    padding: 0;
+    text-align: center;
+    font-size: 1rem;
+    background-color: rgba(34, 255, 0, 0.875);
+    position: absolute;
+    top: 0;
+    border-radius: 20px;
+    color: aliceblue;
+}

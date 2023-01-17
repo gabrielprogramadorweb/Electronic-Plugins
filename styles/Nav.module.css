@@ -4,24 +4,28 @@
     display: flex;
     justify-content: space-between;
     margin: 0;
-    padding: 0;
+    height: 15%;
     width: 100%;
     padding-top: 1%;
     font-family: 'Poppins', sans-serif;
     top: 0;
     background: black;
     position: fixed;
+    text-align: center;
     z-index: 2;
     padding-left: 2%;
     padding-right: 4%;
+
 }
 
 .logo {
 
     color: rgb(250, 249, 249);
-    font-size: 22px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 1%;
     font-weight: bold;
-    transform: translateX(10%);
+    transform: translateX(260%);
     font-family: 'Poppins', sans-serif;
 
 }
@@ -38,7 +42,7 @@
 }
 
 .icon {
-    transform: scale(1.1, 1.1);
+    transform: scale(1.0, 1.0);
 }
 
 .item {
@@ -71,7 +75,8 @@
         margin: 0;
         padding: 0;
         width: 100%;
-        padding-top: 1%;
+        height: 7%;
+        padding-top: 0%;
         font-family: 'Poppins', sans-serif;
         text-align: center;
         background: black;
@@ -96,7 +101,7 @@
         font-size: 29px;
         color: rgb(231, 180, 11);
         cursor: pointer;
-        bottom: -20%;
+        bottom: -10%;
         position: relative;
         transition: transform .4s ease;
         border: none;
