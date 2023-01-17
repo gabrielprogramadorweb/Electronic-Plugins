@@ -740,11 +740,22 @@ span.text-red {
 
   }
 
+  .remove-item {
+    font-size: 40px;
+    color: #f02d34;
+    cursor: pointer;
+    position: relative;
+    margin-left: -80%;
+    transform: translateX(-50%);
+    background: transparent;
+    border: none;
+  }
+
   .cart-product-image {
     transform: scale(0.7);
     padding: 0;
     margin: 0;
-    margin-left: %;
+
     margin-right: -15%;
   }
 
