@@ -28,6 +28,14 @@ export default {
             },
         },
         {
+            name: 'logo',
+            title: 'Logo',
+            type: 'image',
+            options: {
+                hotspot: true,
+            },
+        },
+        {
             name: 'buttonText',
             title: 'ButtonText',
             type: 'string',
