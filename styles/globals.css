@@ -493,7 +493,7 @@ span.text-red {
   border-radius: 8px;
   background-color: #ebebeb;
   width: 70px;
-  height: 70px;
+  height: auto;
   cursor: pointer;
 }
 
