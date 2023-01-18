@@ -207,7 +207,8 @@ span.text-red {
 .products-heading {
   text-align: center;
   margin: 40px 0px;
-  color: #000000;
+  color: #ffffff;
+  background-color: #000000;
 
 }
 
