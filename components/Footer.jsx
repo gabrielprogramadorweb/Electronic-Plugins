@@ -1,12 +1,11 @@
 import React from 'react'
 import { AiFillInstagram, AiOutlineTwitter } from 'react-icons/ai'
-import css from '../styles/Footer.module.css'
 
 const Footer = () => {
     return (
-        <div className={css.footer}>
+        <div className='footer-container'>
             <p>2023 Duck Golden | Todos direitos reservados </p>
-            <p className={css.icons}>
+            <p className='icons'>
                 <AiFillInstagram />
                 <AiOutlineTwitter />
             </p>
