@@ -10,6 +10,7 @@ const HeroBanner = ({ heroBanner }) => {
                 <img src={urlFor(heroBanner.image)}
                     width={250}
                     height={250} alt="headphones" className={css.image} />
+
                 <img src={urlFor(heroBanner.image2)}
                     width={250}
                     height={250} alt="headphones" className={css.image} />

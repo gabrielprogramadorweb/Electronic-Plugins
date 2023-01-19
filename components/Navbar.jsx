@@ -4,6 +4,8 @@ import { AiOutlineShoppingCart } from 'react-icons/ai'
 import { useStateContext } from '../context/StateContext'
 import Cart from './Cart'
 import css from '../styles/Nav.module.css'
+import logo from '../src/pato.png'
+import Image from 'next/image'
 
 
 
@@ -13,6 +15,9 @@ const Navbar = () => {
 
     return (
         <div className={css.navbar}>
+            <Image src={logo}
+
+                alt="" className={css.pato} />
 
 
             <p className={css.logo}>

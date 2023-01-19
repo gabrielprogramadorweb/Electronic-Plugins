@@ -18,6 +18,16 @@
 
 }
 
+.pato {
+    width: 80px;
+
+    transform: scale(0.5);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    height: auto;
+}
+
 .logo {
 
     color: rgb(250, 249, 249);
@@ -25,7 +35,7 @@
     text-align: center;
     margin-top: 1%;
     font-weight: bold;
-    transform: translateX(260%);
+
     font-family: 'Poppins', sans-serif;
 
 }
@@ -91,7 +101,7 @@
         color: rgb(250, 249, 249);
         font-size: 18px;
         margin: auto;
-
+        margin-left: 7%;
         font-size: 2rem;
         font-family: 'Poppins', sans-serif;
 
@@ -126,9 +136,16 @@
 
     }
 
+
     .pato {
-        width: 20px;
+        width: max-content;
+        transform: scale(0.9);
+        justify-content: center;
+        align-items: center;
+        margin-left: -1%;
+        margin-top: 2%;
         height: auto;
+        padding-right: 0;
     }
 
 }
