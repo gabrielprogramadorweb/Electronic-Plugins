@@ -138,10 +138,9 @@
 
 
     .pato {
+        background-color: #f02d34;
         width: max-content;
         transform: scale(0.9);
-        justify-content: center;
-        align-items: center;
         margin-left: -1%;
         margin-top: 2%;
         height: auto;

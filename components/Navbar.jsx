@@ -16,10 +16,7 @@ const Navbar = () => {
     return (
         <div className={css.navbar}>
             <Image src={logo}
-
                 alt="" className={css.pato} />
-
-
             <p className={css.logo}>
                 <Link href='/'>DUCK GOLDEN</Link>
             </p>
