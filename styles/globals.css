@@ -208,8 +208,9 @@ span.text-red {
 .products-heading {
   text-align: center;
   margin: 40px 0px;
-  color: #ffffff;
-  background-color: #000000;
+  color: white;
+  text-shadow: #000 2px 3px 2px;
+  background: linear-gradient(90deg, rgb(43, 255, 0) 0%, rgb(104, 255, 4) 35%, rgb(41, 255, 3) 100%);
 
 }
 
