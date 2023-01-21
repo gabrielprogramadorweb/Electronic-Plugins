@@ -18,6 +18,23 @@
 
 }
 
+.wpp {
+    position: absolute;
+    position: fixed;
+    width: 5%;
+    bottom: 4%;
+    cursor: pointer;
+    height: auto;
+    transition: all 300ms ease;
+}
+
+.wpp:hover {
+
+    transform: scale(1.1);
+
+}
+
+
 .pato {
     width: 80px;
 
@@ -77,6 +94,16 @@
         font-family: 'Poppins', sans-serif;
         transform: scale(1.0);
         transform: translateX(20%);
+    }
+
+    .wpp {
+        position: absolute;
+        position: fixed;
+        width: 12%;
+        bottom: 4%;
+        cursor: pointer;
+        height: auto;
+        transition: all 300ms ease;
     }
 
     .navbar {

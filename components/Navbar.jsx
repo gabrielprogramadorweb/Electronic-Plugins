@@ -5,6 +5,7 @@ import { useStateContext } from '../context/StateContext'
 import Cart from './Cart'
 import css from '../styles/Nav.module.css'
 import logo from '../src/pato.png'
+import wpp from '../src/wpp.png'
 import Image from 'next/image'
 
 
@@ -15,6 +16,10 @@ const Navbar = () => {
 
     return (
         <div className={css.navbar}>
+            <Image src={wpp} alt='' className={css.wpp} />
+
+
+
             {/** <Image src={logo}
                 alt="" className={css.pato} />*/ }
             <p className={css.logo}>
