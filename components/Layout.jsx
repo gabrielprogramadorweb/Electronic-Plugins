@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import React from 'react';
+import { Toaster } from 'react-hot-toast';
 import Footer from './Footer';
 import Navbar from './Navbar';
 Footer
@@ -20,6 +21,7 @@ const Layout = ({ children }) => {
             <footer>
                 <Footer />
             </footer>
+            <Toaster />
         </div>
     )
 }
