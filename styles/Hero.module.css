@@ -66,10 +66,10 @@
 @media screen and (max-width:800px) {
     .hero {
         width: 100px;
-        padding-top: 40%;
+        padding-top: 20%;
         height: auto;
         display: block;
-        margin-bottom: 80%;
+
         transform: scale(2.0);
     }
 
