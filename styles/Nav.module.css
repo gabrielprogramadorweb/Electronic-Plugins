@@ -93,7 +93,7 @@
         font-size: 18px;
         font-family: 'Poppins', sans-serif;
         transform: scale(1.0);
-        transform: translateX(20%);
+        transform: translateX(0%);
     }
 
     .wpp {
@@ -136,7 +136,7 @@
 
     .icon {
         font-size: 29px;
-        color: rgb(231, 180, 11);
+        color: rgb(255, 255, 255);
         cursor: pointer;
         bottom: -10%;
         position: relative;
