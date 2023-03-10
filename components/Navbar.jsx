@@ -23,7 +23,7 @@ const Navbar = () => {
             {/** <Image src={logo}
                 alt="" className={css.pato} />*/ }
             <p className={css.logo}>
-                <Link href='/'>DUCK GOLDEN</Link>
+                <Link href='/'>Electronic Plugins</Link>
             </p>
 
             <button type='button'

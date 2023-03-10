@@ -16,8 +16,8 @@ const FooterBanner = ({ footerBanner: { discount, largeText1, largeText2, saleTi
                     />
                     <h3>{largeText2}</h3>
                     <p>{saleTime}</p>
-                    <p>Contato: xx xxxxxxx</p>
-                    <p>Email: XXX@XXX.com.br</p>
+                    {/**<p>Contato: xx xxxxxxx</p>
+                    <p>Email: XXX@XXX.com.br</p>*/}
                 </div>
                 <div className="right">
                     <p>{smallText}</p>

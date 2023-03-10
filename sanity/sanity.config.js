@@ -1,13 +1,13 @@
-import {defineConfig} from 'sanity'
-import {deskTool} from 'sanity/desk'
-import {visionTool} from '@sanity/vision'
-import {schemaTypes} from './schemas'
+import { defineConfig } from 'sanity'
+import { deskTool } from 'sanity/desk'
+import { visionTool } from '@sanity/vision'
+import { schemaTypes } from './schemas'
 
 export default defineConfig({
   name: 'default',
-  title: 'ecommerce',
+  title: 'My Sanity Project',
 
-  projectId: '3izdcu8o',
+  projectId: 'wkdiswok',
   dataset: 'production',
 
   plugins: [deskTool(), visionTool()],

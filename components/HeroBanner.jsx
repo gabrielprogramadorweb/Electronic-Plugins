@@ -7,7 +7,7 @@ const HeroBanner = ({ heroBanner }) => {
     return (
         <div className={css.hero}>
             <div>
-                <img src={urlFor(heroBanner.image)}
+                { /**  <img src={urlFor(heroBanner.image)}
                     width={250}
                     height={250} alt="headphones" className={css.image} />
 
@@ -15,7 +15,7 @@ const HeroBanner = ({ heroBanner }) => {
                     width={250}
                     height={250} alt="headphones" className={css.image} />
 
-                { /** <p className='beats-solo'>{heroBanner.smallText}</p>
+                <p className='beats-solo'>{heroBanner.smallText}</p>
                 <h3>{heroBanner.midText}</h3>
                 <h1>{heroBanner.largeText1}</h1> */ }
 
