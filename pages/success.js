@@ -38,10 +38,10 @@ const Success = () => {
                     <button type="button" width="300px" className="btn">
                         Setup instalador                   </button>
                 </Link>
-                <Link href="/">
+                { /*<Link href="/">
                     <button type="button" width="300px" className="btn">
                         Continue comprando                    </button>
-                </Link>
+</Link>*/}
             </div>
         </div>
     )
