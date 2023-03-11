@@ -97,7 +97,7 @@ const Cart = () => {
                             <h3>R${totalPrice}</h3>
                         </div>
                         <div className="btn-container">
-                            {<Link href="https://electronicplugins.vercel.app/"><button type="button" className="btn">
+                            {<Link href="/pix"><button type="button" className="btn">
                                 Pagar agora              </button></Link>}
 
                         </div>
