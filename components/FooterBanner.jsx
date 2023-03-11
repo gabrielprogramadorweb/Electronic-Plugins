@@ -10,10 +10,10 @@ const FooterBanner = ({ footerBanner: { discount, largeText1, largeText2, saleTi
         <div className="footer-banner-container">
             <div className="banner-desc">
                 <div className="left">
-                    <p>Formas de pagamento</p>
-                    <img
+                    <p></p>
+                    {/*  <img
                         src={urlFor(card)} className={css.card}
-                    />
+    />*/}
                     <h3>{largeText2}</h3>
                     <p>{saleTime}</p>
                     {/**<p>Contato: xx xxxxxxx</p>
