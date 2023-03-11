@@ -22,7 +22,7 @@ const Pix = () => {
                 </div>
 
                 <div className={css.info}>
-                    <h1>Após pagamento, envie o comprovante para: electronicplugins@gmail.com</h1>
+                    <h1>Após pagamento, envie o comprovante para: electronicplugins@gmail.com <br></br>E aguarde o recebimento do setup.</h1>
                 </div>
 
             </div>
