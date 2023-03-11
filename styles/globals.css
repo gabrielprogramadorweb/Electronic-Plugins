@@ -17,54 +17,6 @@ body,
   width: 0px;
 }
 
-.container {
-  margin-top: 10%;
-}
-
-.pay {
-  padding-top: 20px;
-  margin-top: 40%;
-  margin: auto;
-  align-items: center;
-}
-
-.pay>h1 {
-
-  text-align: center;
-}
-
-
-.img {
-  position: absolute;
-  margin: auto;
-  left: 50%;
-  width: 300px;
-  height: auto;
-  transform: translateX(-50%);
-
-
-
-}
-
-.info {
-  position: relative;
-  display: block;
-
-}
-
-.info h1 {
-  font-size: 1em;
-
-  text-align: center;
-
-}
-
-.chave {
-  text-align: center;
-  margin-top: 25%;
-  font-size: 1em;
-}
-
 a {
   color: inherit;
   text-decoration: none;
